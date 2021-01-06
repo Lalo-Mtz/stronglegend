@@ -1,0 +1,344 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+
+    background-color: #F5F5f5;
+}
+
+/** Globales **/
+img{
+    max-width: 100%;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 3.8rem;
+}
+
+h2{
+    font-size: 3.4rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+h4{
+    font-size: 2.6rem;
+}
+
+/** Utilidades **/
+.seccion{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.fw-300{
+    font-weight: 300;
+}
+
+.centrar-texto{
+    text-align: center;
+}
+
+.d-block{
+    display: block!important;
+}
+
+.contenido-centrado{
+    max-width: 80rem;
+}
+
+/** Botones **/
+.boton{
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    border-radius: 1rem;
+}
+
+.boton-negro{
+    background-color: #000000;
+}
+
+.boton-azul{
+    background-color: #317EFF;
+}
+
+/** Header **/
+.site-header.inicio{
+    height: 100vh;
+    background-image: url(../img/portada2.jpg);
+    background-position: center center;
+    background-size: cover;
+    min-height: 60rem;
+}
+
+.site-header{
+    background-color: #333333;
+    padding: 1rem 0 3rem 0;
+}
+
+.contenido-header{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenido-header h1{
+    color: #ffffff;
+    padding-bottom: 3rem;
+    font-size: 5rem;
+}
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.navegacion a{
+    color: #ffffff;
+    font-size: 2rem;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+.navegacion a:hover{
+    /*color: #42E0E7;*/
+    color: #00e7ff;
+}
+
+.navegacion a:last-of-type{
+    margin: 0;
+}
+
+
+
+/** Welcome **/
+.contenido-welcome{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+}
+
+
+
+/** Nuestros Servicios**/
+
+.contenedor-anuncios{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.anuncio{
+    flex: 0 0 calc(33.3% - 1rem);
+    /*border: 2px solid #B5B5B5;*/
+    border-radius: 2rem;
+    background-color: #317EFF;
+    color: #ffffff;
+    margin-bottom: 3rem;
+}
+
+.anuncio img{
+    border-radius: 2rem;    
+}
+
+.contenido-anuncio{
+    padding: 2rem;
+}
+
+.contenido-anuncio h3,
+.contenido-anuncio p{
+    margin: 0;
+}
+
+
+/** Preguntas Frecuentes**/
+
+.imagen-preguntas{
+    background-image: url(../img/gym2.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+}
+
+.contenido-preguntas{
+    flex: 1;
+    color: #ffffff;
+}
+
+.contenido-preguntas p{
+    font-size: 1.8rem;
+}
+
+/** Testimoniales **/
+
+.contenido-testimonio{
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonio{
+    flex: 0 0 calc(50% - 1rem);
+    border-radius: 1.4rem;
+    /*background-color: #c0aa8d;*/
+    background-color: #b0bdd3;
+}
+
+.testimonio h4{
+    margin: 1rem 0;
+}
+
+.testimonio blockquote{
+    color: #fff;
+    max-width: 40rem;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.img-testimonial{
+    margin: 0 auto;
+    max-width: 55rem;
+    max-height: 53rem;
+}
+
+
+/** Blog **/
+.entrada-blog{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.entrada-blog:last-of-type{
+    margin-bottom: 0;
+}
+
+.entrada-blog .imagen{
+    flex-basis: 40%;
+}
+
+.entrada-blog .texto-entrada{
+    flex-basis: calc(60% - 3rem);
+}
+
+.texto-entrada a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.texto-entrada h4{
+    margin: 0;
+    line-height: 1.4;
+}
+
+.texto-entrada h4::after{
+    content: '';
+    display: block;
+    width: 17rem;
+    height: .5rem;
+    background-color: #317EFF;
+    margin-top: 1rem;
+}
+
+.texto-entrada span{
+    color: #E08709;
+}
+
+/** Footer **/
+.site-footer{
+    background-color: #333333;
+    margin-bottom: 0;
+}
+
+.contenido-footer{
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconos-redes{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    max-width: 25rem;
+}
+
+.icono{
+    margin-right: 3rem;
+}
+
+
+
+/** Internas **/
+
+/** Preguntas Frecuentes **/
+.ask{
+    margin-bottom: 5rem;
+}
+
+.ask:last-of-type{
+    margin-bottom: 0;
+}
+
+/** Contacto **/
+.caja-contacto{
+    max-width: 50rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icono-contacto i{
+    font-size: 6rem;
+
+}
+
+.icono-contacto i:hover{
+    cursor: pointer;
+    font-size: 10rem;
+}
+
+.wha:hover{
+    color: #04df29;
+}
+
+.mess:hover{
+    color: #5cd9ff;
+}
+
+.inst:hover{
+    color: #cc20e1;
+}
+
+

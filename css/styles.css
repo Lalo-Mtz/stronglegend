@@ -112,6 +112,11 @@ h4{
     font-size: 5rem;
 }
 
+.contenido-header h2{
+    color: #ffffff;
+    font-size: 3rem;
+}
+
 .barra{
     display: flex;
     justify-content: space-between;
@@ -176,6 +181,12 @@ h4{
     margin: 0;
 }
 
+.precio{
+    color: #000;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: end;
+}
 
 /** Preguntas Frecuentes**/
 
@@ -207,8 +218,8 @@ h4{
 .testimonio{
     flex: 0 0 calc(50% - 1rem);
     border-radius: 1.4rem;
-    /*background-color: #c0aa8d;*/
-    background-color: #b0bdd3;
+    background-color: #000;
+    color: #fff;
 }
 
 .testimonio h4{
@@ -216,7 +227,6 @@ h4{
 }
 
 .testimonio blockquote{
-    color: #fff;
     max-width: 40rem;
     margin: 0 auto;
     text-align: justify;
@@ -321,24 +331,46 @@ h4{
 
 .icono-contacto i{
     font-size: 6rem;
-
+    color: #000;
 }
 
 .icono-contacto i:hover{
-    cursor: pointer;
     font-size: 10rem;
 }
 
-.wha:hover{
+.wha i:hover{
     color: #04df29;
 }
 
-.mess:hover{
+.mess i:hover{
     color: #5cd9ff;
 }
 
-.inst:hover{
+.inst i:hover{
     color: #cc20e1;
+}
+
+/**Formulrio de contacto**/
+
+legend{
+    font-size: 2.2rem;
+    color: #4F4F4F;
+}
+
+label{
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+}
+
+input:not([type="submit"]), textarea, select{
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    background-color: #E1E1E1;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
 }
 
 

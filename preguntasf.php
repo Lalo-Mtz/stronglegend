@@ -1,3 +1,4 @@
+<?php include('sections.php');?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,25 +10,7 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header class="site-header">
-        <div class="contenedor contenido-header">
-
-            <div class="barra">
-
-                <a href="/">
-                    <img src="img/legend.png" alt="Logo">
-                </a>
-
-                <nav class="navegacion">
-                    <a href="servicios.html">Servicios</a>
-                    <a href="contacto.html">Contacto</a>
-                    <a href="blog.html">Blog</a>
-                    <a href="preguntasf.html">Preguntas frecuentes</a>
-                </nav>
-
-            </div>            
-        </div>
-    </header>
+    <?php headerI(1);?>
 
     <h1 class="fw-300 centrar-texto">Preguntas Frecuentes</h1>
 
@@ -54,31 +37,6 @@
         </article>
     </main>
 
-    <footer class="site-footer seccion">
-
-        <div class="contenedor contenido-footer">
-            <nav class="navegacion">
-                <a href="servicios.html">Servicios</a>
-                <a href="contacto.html">Contacto</a>
-                <a href="blog.html">Blog</a>
-                <a href="preguntasf.html">Preguntas frecuentes</a>
-            </nav>
-
-            <ul class="iconos-redes">
-                <li class="icono">
-                    <img src="img/whatsapp.png" alt="Icono WhatsApp">
-                </li>
-                <li class="icono">
-                    <img src="img/instagram.png" alt="Icono Instagram">
-                </li>
-                <li class="icono">
-                    <img src="img/fb.png" alt="Icono Facebook">
-                </li>
-                <li class="icono">
-                    <img src="img/gmail.png" alt="Icono Gmail">
-                </li>
-            </ul>
-        </div>
-    </footer>
+    <?php footerSe();?>
 </body>
 </html>

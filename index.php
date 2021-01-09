@@ -1,3 +1,4 @@
+<?php include('sections.php');?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,43 +10,21 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header class="site-header inicio">
-
-        <div class="contenedor contenido-header">
-
-            <div class="barra">
-
-                <a href="/">
-                    <img src="img/legend.png" alt="Logo">
-                </a>
-
-                <nav class="navegacion">
-                    <a href="servicios.html">Servicios</a>
-                    <a href="contacto.html">Contacto</a>
-                    <a href="blog.html">Blog</a>
-                    <a href="preguntasf.html">Preguntas frecuentes</a>
-                </nav>
-
-            </div>            
-
-            <h1>Personal Trainer</h1>
-        </div>
-    </header>
+    
+    <?php headerI(0);?>
 
     <section class="seccion contenedor">
         <div class="contenido-welcome">
             <img src="img/couch.jpg" alt="Imagen del Entrenador">
 
             <div class="texto-welcome">
-                <h2 class="fw-300 centrar-texto">Welcome</h2>
+                <h2 class="fw-300 centrar-texto">Bienvenidos</h2>
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt at, nulla distinctio laudantium doloribus sapiente sint 
-                    mollitia eveniet impedit eum ex quaerat quam maiores nesciunt quia in quod quibusdam possimus.
+                    Que tal, soy el Coach Ehecatl mi asesoría te ofrece plan nutricional, suplementación según objetivos y rutina 
+                    para gimnasio o casa. Te ayudo en el control de tu peso, aumento de masa muscular y a disminuir tu porcentaje de grasa.
                 </p>
             </div>
-            
         </div>
-
     </section>
 
     <main class="seccion contenedor">
@@ -56,8 +35,11 @@
                 <img src="img/entrenando.jpg" alt="Imagen Paquete Premium">
                 <div class="contenido-anuncio">
                     <h3 class="centrar-texto">Paquete Premium</h3>
-                    <p>Este es el paquete que más te recomendamos, incluye de todo</p>
-                    <a href="#" class="boton d-block boton-negro">Comprar</a>
+                    <p>Este es el paquete que más te recomendamos, el mejor para alcanzar tus metas.</p>
+
+                    <p class="precio">$ 550.00 mx</p>
+
+                    <a href="#" class="boton d-block boton-negro">Ver detalles</a>
                 </div>
             </div>
                 
@@ -65,8 +47,11 @@
                 <img src="img/entrena.jpg" alt="Imagen Rutina">
                 <div class="contenido-anuncio">
                     <h3 class="centrar-texto">Paquete Rutina</h3>
-                    <p>Este es el paquete que más te recomendamos, incluye de todo</p>
-                    <a href="#" class="boton d-block boton-negro">Comprar</a>
+                    <p>Este paquete solo incluye rutina de ejercicios ya sea para gimnasio o casa.</p>
+
+                    <p class="precio">$ 250.00 mx</p>
+
+                    <a href="#" class="boton d-block boton-negro">Ver detalles</a>
                 </div>
             </div>
 
@@ -74,17 +59,19 @@
                 <img src="img/plan_a.jpg" alt="Imagen Plan Nutricional">
                 <div class="contenido-anuncio">
                     <h3 class="centrar-texto">Plan nutricional</h3>
-                    <p>Este es el paquete que más te recomendamos, incluye de todo</p>
-                    <a href="#" class="boton d-block boton-negro">Comprar</a>
+                    <p>Este paqute solo contiene una acesoria alimenticia, exelente y necesaria.</p>
+
+                    <p class="precio">$ 350.00 mx</p>
+
+                    <a href="#" class="boton d-block boton-negro">Ver detalles</a>
                 </div>
             </div>
-        </div>
-        
+        </div> 
     </main>
 
     <section class="seccion imagen-preguntas">
         <div class="contenido-preguntas contenedor">
-            <h3>¿Porque tener un couch?</h3>
+            <h3>¿Porque tener un coach?</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo earum consequuntur maxime fuga molestiae enim provident ipsum expedita suscipit assumenda nemo, deserunt nam voluptate officia eveniet ullam voluptates repellendus corporis.</p>
 
             <a href="#" class="boton boton-azul">Preguntas frecuentes</a>
@@ -170,31 +157,7 @@
 
     </section>
 
-    <footer class="site-footer seccion">
+    <?php footerSe();?>
 
-        <div class="contenedor contenido-footer">
-            <nav class="navegacion">
-                <a href="servicios.html">Servicios</a>
-                <a href="contacto.html">Contacto</a>
-                <a href="blog.html">Blog</a>
-                <a href="preguntasf.html">Preguntas frecuentes</a>
-            </nav>
-
-            <ul class="iconos-redes">
-                <li class="icono">
-                    <img src="img/whatsapp.png" alt="Icono WhatsApp">
-                </li>
-                <li class="icono">
-                    <img src="img/instagram.png" alt="Icono Instagram">
-                </li>
-                <li class="icono">
-                    <img src="img/fb.png" alt="Icono Facebook">
-                </li>
-                <li class="icono">
-                    <img src="img/gmail.png" alt="Icono Gmail">
-                </li>
-            </ul>
-        </div>
-    </footer>
 </body>
 </html>

@@ -132,7 +132,6 @@ h4{
 }
 
 .navegacion a:hover{
-    /*color: #42E0E7;*/
     color: #00e7ff;
 }
 
@@ -149,6 +148,11 @@ h4{
     column-gap: 2rem;
 }
 
+.texto-welcome p{
+    font-size: 3rem;
+    font-weight: 300;
+}
+
 
 
 /** Nuestros Servicios**/
@@ -161,7 +165,6 @@ h4{
 
 .anuncio{
     flex: 0 0 calc(33.3% - 1rem);
-    /*border: 2px solid #B5B5B5;*/
     border-radius: 2rem;
     background-color: #317EFF;
     color: #ffffff;

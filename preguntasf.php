@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <?php headerI(1);?>
+    <?php headerSe(1);?>
 
     <h1 class="fw-300 centrar-texto">Preguntas Frecuentes</h1>
 

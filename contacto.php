@@ -12,7 +12,7 @@
     <script src="https://kit.fontawesome.com/eefb3f6366.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <?php headerI(1);?>
+    <?php headerSe(1);?>
 
     <h1 class="fw-300 centrar-texto">Contacto</h1>
     <img src="img/otro1.jpg" alt="">

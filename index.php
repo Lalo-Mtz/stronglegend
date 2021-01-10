@@ -1,4 +1,4 @@
-<?php include('sections.php');?>
+<?php include('sections.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +11,7 @@
 </head>
 <body>
     
-    <?php headerI(0);?>
+    <?php headerSe(0); ?>
 
     <section class="seccion contenedor">
         <div class="contenido-welcome">

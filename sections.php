@@ -2,11 +2,11 @@
     function navigation(){
         echo '
             <nav class="navegacion">
-                <a href="servicios.html">Servicios</a>
-                <a href="contacto.html">Contacto</a>
-                <a href="blog.html">Blog</a>
-                <a href="preguntasf.html">Preguntas frecuentes</a>
-                <a href="productos.html">Productos</a>
+                <a href="servicios.php">Servicios</a>
+                <a href="contacto.php">Contacto</a>
+                <a href="blog.php">Blog</a>
+                <a href="preguntasf.php">Preguntas frecuentes</a>
+                <a href="productos.php">Productos</a>
             </nav>
         ';
     }

@@ -19,7 +19,7 @@
             <div class="texto-welcome">
                 <h2 class="fw-300 centrar-texto">Bienvenidos</h2>
                 <p>
-                    Que tal, soy el Coach Ehecatl mi asesoría te ofrece plan nutricional, suplementación según objetivos y rutina 
+                    Que tal, soy el Coach Ehecatl, mi asesoría te ofrece plan nutricional, suplementación según objetivos y rutina 
                     para gimnasio o casa. Te ayudo en el control de tu peso, aumento de masa muscular y a disminuir tu porcentaje de grasa.
                 </p>
             </div>
@@ -38,7 +38,7 @@
 
                     <p class="precio">$ 550.00 mx</p>
 
-                    <a href="#" class="boton d-block boton-negro">Ver detalles</a>
+                    <a href="paquete.php?type=premium" class="boton d-block boton-negro">Ver detalles</a>
                 </div>
             </div>
                 
@@ -50,19 +50,19 @@
 
                     <p class="precio">$ 250.00 mx</p>
 
-                    <a href="#" class="boton d-block boton-negro">Ver detalles</a>
+                    <a href="paquete.php?type=routine" class="boton d-block boton-negro">Ver detalles</a>
                 </div>
             </div>
 
             <div class="anuncio">
                 <img src="img/plan_a.jpg" alt="Imagen Plan Nutricional">
                 <div class="contenido-anuncio">
-                    <h3 class="centrar-texto">Plan nutricional</h3>
+                    <h3 class="centrar-texto">Plan Nutricional</h3>
                     <p>Este paqute solo contiene una acesoria alimenticia, exelente y necesaria.</p>
 
                     <p class="precio">$ 350.00 mx</p>
 
-                    <a href="#" class="boton d-block boton-negro">Ver detalles</a>
+                    <a href="paquete.php?type=nutritional" class="boton d-block boton-negro">Ver detalles</a>
                 </div>
             </div>
         </div> 
@@ -71,9 +71,12 @@
     <section class="seccion imagen-preguntas">
         <div class="contenido-preguntas contenedor">
             <h3>¿Porque tener un coach?</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo earum consequuntur maxime fuga molestiae enim provident ipsum expedita suscipit assumenda nemo, deserunt nam voluptate officia eveniet ullam voluptates repellendus corporis.</p>
+            <p>Es la persona que te ayuda a tener una planeación y una visión realista de tus objetivos así como
+            proporcionarte diferentes métodos en los cuales te sirvan de guía durante el proceso de transformación
+            de tu físico y tu estilo de vida, como ocasionará un impacto en tu motivación y en tu consentración mental
+            evitando que desistas de tus metas.</p>
 
-            <a href="#" class="boton boton-azul">Preguntas frecuentes</a>
+            <a href="preguntasf.php" class="boton boton-azul">Preguntas frecuentes</a>
         </div>
     </section>
 

@@ -376,4 +376,24 @@ input:not([type="submit"]), textarea, select{
     border-radius: 1rem;
 }
 
+/**Paquetes**/
+.box-sale{
+    border-radius: 2rem;
+    background-color: #317EFF;
+    color: #ffffff;
+    padding: 3rem;
+    font-size: 2.2rem;
+}
 
+.box-sale .precio{
+    font-size: 3rem;
+}
+
+.box-sale i{
+    font-size: 7rem;
+}
+
+.iconos-sale{
+    display: flex;
+    justify-content: space-evenly;
+}

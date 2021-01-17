@@ -25,7 +25,7 @@
                 <a target="_blank" href="https://wa.me/5214493431377?text=Hola,%20me%20interesa%20alguno%20de%20los%20paquetes%20que%20ofreces"><i class="fab fa-whatsapp"></i></a>
             </div>
             <div class="icono-contacto mess">
-                <a target="_blank" href="https://www.instagram.com/strong_legend19/"><i class="fab fa-facebook-messenger"></i></a>
+                <a target="_blank" href="https://m.me/100354728019321"><i class="fab fa-facebook-messenger"></i></a>
             </div>
             <div class="icono-contacto inst">
                 <a target="_blank" href="https://www.instagram.com/strong_legend19/"><i class="fab fa-instagram"></i></a>
